@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:id="@+id/listView"
+        android:focusable="true"
+        android:layout_weight="0.98"
+        android:divider="@null"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/mapButton"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_btn_red"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:textColor="@color/white_text"
+        android:text="Show In Map" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "617479294719",
+    "firebase_url": "https://onebite-6d6d3.firebaseio.com",
+    "project_id": "onebite-6d6d3",
+    "storage_bucket": "onebite-6d6d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617479294719:android:3f43a929e139f509",
+        "android_client_info": {
+          "package_name": "edu.monash.fit4039.onebite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617479294719-hto120p4eo3f3kvv8obiqtq6hku23lek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.monash.fit4039.onebite",
+            "certificate_hash": "1265b67ef754ab702704dcbe1c12a431d5d4b754"
+          }
+        },
+        {
+          "client_id": "617479294719-v59d48b97gmocithf2m72st6tj7rv595.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs9RbdGUvQgTmbj_3C_8S1VY5jX8xeSVY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617479294719-v59d48b97gmocithf2m72st6tj7rv595.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

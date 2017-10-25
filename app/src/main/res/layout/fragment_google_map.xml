@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.monash.fit4039.onebite.GoogleMapFragment"
+    android:id="@+id/google_map"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.gms.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="474dp"
+        android:id="@+id/map"
+        android:layout_weight="1.07" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/listButton"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_btn_red"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:textColor="@color/white_text"
+        android:text="Show In List" />
+</LinearLayout>

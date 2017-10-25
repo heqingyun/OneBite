@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:text="In this application, the author references the resources below:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="18sp"
+            />
+
+        <TableLayout
+            android:layout_width="383dp"
+            android:layout_height="match_parent"
+            android:showDividers="middle">
+
+            <TableRow
+                android:layout_width="383dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/valuecellborder"
+                >
+
+                <TextView
+                    android:text="MD5: "
+                    android:layout_width="97dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:text="https://dzone.com/articles/get-md5-hash-few-lines-java"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView7"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textStyle="normal|italic"
+                    android:background="@drawable/valuecellborder"
+                    android:autoLink="web" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="383dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/valuecellborder">
+
+                <TextView
+                    android:text="FireBase storage:"
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView8"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:text="https://www.youtube.com/watch?v=7puuTDSf3pk&amp;t=302s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:layout_weight="2.47"
+                    android:textSize="18sp"
+                    android:textStyle="normal|italic"
+                    android:background="@drawable/valuecellborder"
+                    android:autoLink="web" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/valuecellborder">
+
+                <TextView
+                    android:text="Google Map: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView10"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:text="https://www.youtube.com/watch?v=0dToEEuPL9Y"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.47"
+                    android:textSize="18sp"
+                    android:textStyle="normal|italic"
+                    android:background="@drawable/valuecellborder"
+                    android:autoLink="web" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="383dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/valuecellborder">
+
+                <TextView
+                    android:text="NetworkImageView:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:text="https://cypressnorth.com/mobile-application-development/setting-android-google-volley-imageloader-networkimageview/"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.47"
+                    android:textSize="18sp"
+                    android:textStyle="normal|italic"
+                    android:background="@drawable/valuecellborder"
+                    android:autoLink="web" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="383dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/valuecellborder">
+
+                <TextView
+                    android:text="Volly:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView16"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:text="https://github.com/google/volley"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.47"
+                    android:textSize="18sp"
+                    android:textStyle="normal|italic"
+                    android:background="@drawable/valuecellborder"
+                    android:autoLink="web" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="383dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/valuecellborder">
+
+                <TextView
+                    android:text="CardView:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView21"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:text="https://developer.android.com/training/material/lists-cards.html"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.47"
+                    android:textSize="18sp"
+                    android:textStyle="normal|italic"
+                    android:background="@drawable/valuecellborder"
+                    android:autoLink="web" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/valuecellborder">
+
+                <TextView
+                    android:text="Table divider:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView24"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:text="https://stackoverflow.com/questions/29237643/android-tablelayout-show-all-dividers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.47"
+                    android:textSize="18sp"
+                    android:textStyle="normal|italic"
+                    android:background="@drawable/valuecellborder"
+                    android:autoLink="web" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>
